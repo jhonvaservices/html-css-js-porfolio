@@ -1,0 +1,794 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">MY PORTFOLIO</div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo">Jhon Eldred Cabido</div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="./assets/2X2 FORMAL-modified.png" alt="Jhon Eldred profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Jhon Eldred Cabido</h1>
+        <p class="section__text__p2">Virtual Assistant</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assets/JHON ELDRED CABIDO AMZVA.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img
+            src="./assets/About-pic 2.png"
+            alt="Profile picture"
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assets/Medal.png"
+                alt="Experience icon"
+                class="icon"
+              />
+              <h3>Experience</h3>
+              <p>3 years Virtual Assistant</p>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assets/Education.png"
+                alt="Education icon"
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>BS in Civil Engineering</p>
+            </div>
+          </div>  
+          <div class="text-container">
+            <p>An Amazon Operations and Customer Service Specialist with over 3 years of experience helping brands grow and thrive on platforms like Amazon Seller Central, Vendor Central, Shopify, and other e-commerce platforms. My day-to-day involves everything from fixing tricky listing issues and improving account health to providing top-notch support for customers—and making sure orders flow smoothly and fraud-free.
+              <br />
+              <br />Beyond e-commerce, I also handle a wide range of administrative tasks. I follow up on client bills, organize due dates, generate leads, and even plan travel by researching the perfect vacation spots and hotels. I create LinkedIn carousels and social media content, and I enjoy working on design projects using tools like Canva and AutoCAD.
+              <br />
+              <br />I’m comfortable wearing many hats—whether it's jumping into customer support, optimizing listings with flatfiles, creating reports, or helping executives stay organized and efficient. My goal is always to add value, stay proactive, and make life a little easier for both customers and the teams I work with.
+            </p>
+          </div>  
+        </div>
+      </div>
+      <img
+        src="./assets/Arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Virtual Assistant Skills</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Account Health Management</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Inventory Forecasting</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Product Research</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>AMZ Listing Troubleshooting</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Administrative Tasks</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Lead Generation</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Search Engine Optimization</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Website Designing</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Graphic Design</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Market Analysis</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Customer Service</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Checkmark.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Calendar Management</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">Tools Used</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assets/SAS.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>SellerAmp SAS</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/H10 2.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Helium 10</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Notion.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Notion</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Amazon Logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Vendor Central</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Whatsapp.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Whatsapp</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Canva.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Canva</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Amazon Logo.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Seller Central</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Autocad.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>AutoCAD</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Github.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Github</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Pega CLOUD.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Pega CLOUD</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/LastPass.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>LastPass</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Keepa.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Keepa</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Gsuite.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Google Suite</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Skuvault.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>SkuVault</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Wrike.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Wrike</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Monday.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Monday.com</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Calendly.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Calendly</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Zoom 2.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Zoom</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/JS.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>JungleScout</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Zendesk.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Zendesk</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Loom.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Loom</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/ShipStation.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>ShipStation</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Walmart 2.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Walmart</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/USPS.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>USPS</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Confluence.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Confluence</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Outlook.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Outlook</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Trello.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Trello</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Zoho.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Zoho CRM</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Airtable.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Airtable</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Slack.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Slack</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Syncplicity.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Syncplicity</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Shopify.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Shopify</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/eBay.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>eBay</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Threecolts.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Threecolts</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Teams.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Teams</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/UPS.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>UPS</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Office 365.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Office 365</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Asana.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Asana</h4>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assets/Etsy.png"
+                  alt="Experience icon"
+                  class="icon"
+                />
+                <div>
+                  <h4>Etsy</h4>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/Arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#projects'"
+      />
+    </section>
+    <section id="projects">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Projects</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class=" details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/AutoCAD Output.png"
+              alt="Project 1"
+              class="project-img"
+            />
+          </div>
+          <h5 class="experience-sub-title project-title">AutoCAD Output</h5>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://drive.google.com/file/d/1JGgd_3F2fgTIkvJuW9MDs_cD-ksONA-w/view?usp=sharing'"
+            >
+              Click here
+            </button>
+          </div>
+          </div>
+          <div class=" details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/Amazon VA.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h5 class="experience-sub-title project-title">Amazon Tasks</h5>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://drive.google.com/file/d/1AxOon3ReHna0zwcyo7NcuiVmloV_mAw8/view?usp=sharing'"
+            >
+              Click here
+            </button>
+          </div>
+          </div>
+          <div class=" details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/Customer Service Tasks.png"
+              alt="Project 3"
+              class="project-img"
+            />
+          </div>
+          <h5 class="experience-sub-title project-title">Customer Service</h5>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://drive.google.com/file/d/1XCU30DYWC6R5kOCcjg6CqDmfGXhRnsMM/view?usp=sharing'"
+            >
+              Click here
+            </button>
+          </div>
+          </div>
+          <div class=" details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/Graphic Design.png"
+              alt="Project 4"
+              class="project-img"
+            />
+          </div>
+          <h2 class="experience-sub-title project-title">Graphic Design</h5>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://drive.google.com/file/d/18DLJp52SO1-YMVPl2bM-iptTNynpgO9d/view?usp=sharing'"
+            >
+              Click here
+            </button>
+          </div>
+          </div>
+          <div class=" details-container color-container">
+          <div class="article-container">
+            <img
+              src="assets/Other VA output.png"
+              alt="Project 2"
+              class="project-img"
+            />
+          </div>
+          <h5 class="experience-sub-title project-title">Other VA Output</h5>
+          <div class="btn-container">
+            <button
+              class="btn btn-color-2 project-btn"
+              onclick="location.href='https://drive.google.com/file/d/18ex5NHFQGHlIuzwe59HG24srkWfzzkDj/view?usp=sharing'"
+            >
+              Click here
+            </button>
+          </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/Arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="./assets/Email.png"
+            alt="Email icon"
+            class="icon contact-icon"
+          />
+          <p><a href="mailto:examplemail@gmail.com">jhon.vaservices@gmail.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/LinkedIn.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com/in/jhoneldred">LinkedIn</a></p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="./assets/Calendly black.png"
+            alt="Calendly icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://calendly.com/jhon-vaservices/30min">Let's Work Together</a>
+          </p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2025 Jhon Eldred Cabido. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
